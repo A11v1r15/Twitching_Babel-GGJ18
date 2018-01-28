@@ -118,7 +118,7 @@ public class TwitchChat : MonoBehaviour
 				printQueue ();
 
 				//kappa
-				if (current.command == "kappa") {
+				if (current.displayMessage.Contains("kappa")) {
 					GameObject kappa = new GameObject ();
 					kappa.AddComponent<Image> ();
 					kappa.GetComponent<Image> ().sprite = Kappa;

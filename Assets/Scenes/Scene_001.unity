@@ -601,6 +601,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Kappa: {fileID: 21300000, guid: af12287781c14ce4e82cf7e067f666ca, type: 3}
   pool: []
+  warPool: 
+  faminePool: 
+  pestilencePool: 
+  deathPool: 
+  ddosPool: 
   chatBox: {fileID: 497291500}
 --- !u!4 &1084039390
 Transform:
@@ -632,6 +637,8 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 67782679be0447e409224356e45cd81f, type: 3}
   - {fileID: 21300000, guid: 83b2f598a046a0b408080172e8df23f1, type: 3}
   - {fileID: 21300000, guid: c0e0ce39e59274e47b5387794007a708, type: 3}
+  - {fileID: 21300000, guid: 6e8ba7f0dd6e1fb47b59f4d2f339887b, type: 3}
+  - {fileID: 21300000, guid: bde41d8c5f74fe74cb65cc4daa53a736, type: 3}
   MessageSprites:
   - {fileID: 21300000, guid: 2fcf7b2cff70f0c45a5a337371a90b89, type: 3}
   - {fileID: 21300000, guid: b237e7852465e514eb7a280cca082860, type: 3}
@@ -646,6 +653,7 @@ MonoBehaviour:
   speedMultiplier: 1
   currentMedia: 
   currentState: 
+  nextState: 
   nextMedia: 
   integrity: 5
   baseDeterioration: 0.05

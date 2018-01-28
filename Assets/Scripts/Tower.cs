@@ -36,7 +36,7 @@ public class Tower : MonoBehaviour
 			temp.AddComponent<Image> ();
 			if (i == 0) {
 				temp.GetComponent<Image> ().sprite = TowerBase;
-			} else if (Random.value < 0.2f) {
+			} else if (Random.value < 0.3f) {
 				temp.GetComponent<Image> ().sprite = TowerSpecialLayer [(int)(Random.value * TowerSpecialLayer.Length)];
 			} else {
 				temp.GetComponent<Image> ().sprite = TowerLayer;
